@@ -24,3 +24,28 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
+  
+  - id: rmc-praise-ml # unique identifier
+    name: rmc.praise.ml
+    description: 'Restricted Media Center' # default=empty
+    url: 'https://rmc.praise.ml/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+  - id: praise-ml # unique identifier
+    name: praise.ml
+    description: 'Praise Networks Data Center' # default=empty
+    url: 'https://praise.ml/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+  - id: paste-praise-ml # unique identifier
+    name: paste.praise.ml
+    description: 'Praise Paste' # default=empty
+    url: 'https://paste.praise.ml/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    

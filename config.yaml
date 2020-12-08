@@ -22,7 +22,7 @@ monitors:
     description: 'Massive Media Center' # default=empty
     url: 'https://mmc.praise.ml/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 401 # operational status, default=200
+    expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
   
   - id: rmc-praise-ml # unique identifier
@@ -30,7 +30,7 @@ monitors:
     description: 'Restricted Media Center' # default=empty
     url: 'https://rmc.praise.ml/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 401 # operational status, default=200
+    expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     
   - id: praise-ml # unique identifier

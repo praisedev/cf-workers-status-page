@@ -92,7 +92,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
           <div>
             Powered by{' '}
             <a href="https://cloudflare.com/" target="_blank">
-              Cloudflare Workers{' '}
+              Cloudflare{' '}
             </a>
             &{' '}
             <a href="https://praise.ml/" target="_blank">

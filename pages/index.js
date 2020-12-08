@@ -91,20 +91,20 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
         <div className="flex flex-row justify-between mt-4 text-sm">
           <div>
             Powered by{' '}
-            <a href="https://workers.cloudflare.com/" target="_blank">
+            <a href="https://cloudflare.com/" target="_blank">
               Cloudflare Workers{' '}
             </a>
             &{' '}
-            <a href="https://flareact.com/" target="_blank">
-              Flareact{' '}
+            <a href="https://praise.ml/" target="_blank">
+              Praise Networks{' '}
             </a>
           </div>
           <div>
             <a
-              href="https://github.com/eidam/cf-workers-status-page"
+              href="https://praise.ml"
               target="_blank"
             >
-              Get Your Status Page
+              Praise Networks Homepage
             </a>
           </div>
         </div>

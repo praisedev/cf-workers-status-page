@@ -95,8 +95,8 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
               Cloudflare{' '}
             </a>
             &{' '}
-            <a href="https://praise.ml/" target="_blank">
-              Praise Networks{' '}
+            <a href="https://prais.ga/" target="_blank">
+              Prais.{' '}
             </a>
           </div>
           <div>

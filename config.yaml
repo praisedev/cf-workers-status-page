@@ -1,8 +1,8 @@
 settings:
-  title: 'Status Page'
+  title: 'Praise Networks - Status Page'
   url: 'https://status.praise.ml' # used for Slack messages
-  logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 30 # number of days you want to display in histogram
+  logo: 'https://fontmeme.com/permalink/210116/9cfc86775b4ef1658eb71b71d324ada0.png' # image in ./public/ folder
+  daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: false # experimental feature, enable only for <5 monitors or on paid plans
 
   # configurable texts across the status page
@@ -49,3 +49,34 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     
+  - id: emby-praise-ml # unique identifier
+    name: emby.praise.ml
+    description: 'Praise Emby Server' # default=empty
+    url: 'https://paste.praise.ml/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+  - id: media-praise-ml # unique identifier
+    name: media.praise.ml
+    description: 'Praise Media Server' # default=empty
+    url: 'https://paste.praise.ml/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+  - id: prais-ga # unique identifier
+    name: prais.ga
+    description: 'Praise's Resume' # default=empty
+    url: 'https://paste.praise.ml/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+   - id: skuy-ga # unique identifier
+    name: skuy.ga
+    description: 'Praise's Link Shortener Service' # default=empty
+    url: 'https://skuy.ga/user/login' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
